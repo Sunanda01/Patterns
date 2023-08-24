@@ -1,3 +1,4 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
 
 int main() {
@@ -6,12 +7,14 @@ int main() {
     cin>>n;
     for(i=1;i<=n;i++)
     {
-        for(j=1;j<=i;j++)
+        for(j=1;j<=n;j++)
         {
-            cout<<"*";
+            if((i+j)<=n)
+                cout<<" ";
+            else
+                cout<<"*";
         }
         cout<<"\n";
     }
-
     return 0;
 }
