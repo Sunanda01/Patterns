@@ -54,3 +54,11 @@ C C C
 D D D D 
 E E E E E
 ```
+Pattern 15
+```
+A B C D E 
+A B C D 
+A B C 
+A B 
+A
+```
